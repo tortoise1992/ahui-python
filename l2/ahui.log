@@ -1,0 +1,3 @@
+Wed,2017-09-13 14:56:06 2.py [line:9] DEBUG This is debug message
+Wed,2017-09-13 14:56:06 2.py [line:10] INFO This is info message
+Wed,2017-09-13 14:56:06 2.py [line:11] WARNING This is warning message

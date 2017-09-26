@@ -1,0 +1,12 @@
+Wed,2017-09-13 14:40:25 2.py [line:9] DEBUG This is debug message
+Wed,2017-09-13 14:40:25 2.py [line:10] INFO This is info message
+Wed,2017-09-13 14:40:25 2.py [line:11] WARNING This is warning message
+Wed,2017-09-13 14:40:32 2.py [line:9] DEBUG This is debug message
+Wed,2017-09-13 14:40:32 2.py [line:10] INFO This is info message
+Wed,2017-09-13 14:40:32 2.py [line:11] WARNING This is warning message
+Wed,2017-09-13 14:40:35 2.py [line:9] DEBUG This is debug message
+Wed,2017-09-13 14:40:35 2.py [line:10] INFO This is info message
+Wed,2017-09-13 14:40:35 2.py [line:11] WARNING This is warning message
+Wed,2017-09-13 14:40:37 2.py [line:9] DEBUG This is debug message
+Wed,2017-09-13 14:40:37 2.py [line:10] INFO This is info message
+Wed,2017-09-13 14:40:37 2.py [line:11] WARNING This is warning message
