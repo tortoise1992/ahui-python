@@ -7,7 +7,7 @@ from website.app import application
 from tornado.options import define,options
 
 
-define("port",default=3001,help="run on",type=int)
+define("port",default=3000,help="run on",type=int)
 
 def main():
     tornado.options.parse_command_line()
