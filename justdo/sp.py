@@ -1,5 +1,5 @@
 from selenium import webdriver
-
+from pyquery import PyQuery as pq
 browser=webdriver.PhantomJS()
 browser.get('http://www.baidu.com')
 
