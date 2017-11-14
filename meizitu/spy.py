@@ -2,7 +2,7 @@
 from pyquery import PyQuery as pq
 import requests
 import time
-import json
+
 page=1
 baseUrl='http://www.mzitu.com/page/'
 headers={
@@ -37,13 +37,15 @@ def get_all_link(url,max):
         print(max,'页数据抓取完毕!')
 
 def write_in_file(data):
-    data={
-        'data':str(data)
-    }
-    with open('./meizitu.json','a',encoding='utf-8') as f:
-        f.write(json.dumps(data))
+    with open('./meizitu.json','a','utf-8') as f:
+        f.write(str(data))
+    # f=open('./a.json','a',encoding='utf-8')
+    # f.write(str(data))
+    # f.close()
 
-# get_all_link(baseUrl,100)
-# write_in_file(urls)
+get_all_link(baseUrl,100)
+write_in_file(urls)
 
-write_in_file(['周'])
+# write_in_file(['周'])
+# with codecs.open('./b.json','a','utf-8') as f:
+#     f.write(str(['dhakjdhkadkha啊哈哈哈']))
